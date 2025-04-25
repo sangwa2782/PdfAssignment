@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "849631283277",
+    "project_id": "pdfassignment-f204f",
+    "storage_bucket": "pdfassignment-f204f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849631283277:android:47efd1762000d8baeff404",
+        "android_client_info": {
+          "package_name": "com.example.pdfassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849631283277-an2666ar1s19tiqj5n438iicv36aq9s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pdfassignment",
+            "certificate_hash": "8b626c385616280868a6bf5f4a8e9fc809419918"
+          }
+        },
+        {
+          "client_id": "849631283277-t7c42hvstl0133qh27lfo9v4r7i9qd1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY45bdRB_XmQ12za3w9pO-OnRPO308US8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849631283277-t7c42hvstl0133qh27lfo9v4r7i9qd1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
