@@ -1,4 +1,4 @@
-package com.example.pdfassignment.model.localDB
+package com.example.pdfassignment.model.localDB.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

@@ -16,6 +16,9 @@
         android:theme="@style/Theme.PdfAssignment"
         tools:targetApi="31">
         <activity
+            android:name=".views.ShowProductActivity"
+            android:exported="false" />
+        <activity
             android:name=".views.SignOutActivity"
             android:exported="false" />
         <activity

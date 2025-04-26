@@ -1,7 +1,7 @@
 package com.example.pdfassignment.repository
 
-import com.example.pdfassignment.model.localDB.User
-import com.example.pdfassignment.model.localDB.UserDao
+import com.example.pdfassignment.model.localDB.entity.User
+import com.example.pdfassignment.model.localDB.dao.UserDao
 import javax.inject.Inject
 
 class UserRepository @Inject constructor(private val userDao: UserDao) {

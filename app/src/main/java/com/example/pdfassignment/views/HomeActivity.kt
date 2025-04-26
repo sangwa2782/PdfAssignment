@@ -4,23 +4,14 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.ui.semantics.text
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import androidx.lifecycle.Observer
-import androidx.lifecycle.observe
 import com.example.pdfassignment.MainActivity
-import com.example.pdfassignment.R
 import com.example.pdfassignment.databinding.ActivityHomeBinding
-import com.example.pdfassignment.model.localDB.User
+import com.example.pdfassignment.model.localDB.entity.User
 import com.example.pdfassignment.viewModel.UserViewModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -96,5 +87,12 @@ class HomeActivity : AppCompatActivity() {
                 userViewModel.addUser(newUser)
             }
         }
+
+        binding.btProductList.setOnClickListener{
+            startActivity(Intent(this, ShowProductActivity::class.java))
+            finish()
+        }
+
+
     }
 }

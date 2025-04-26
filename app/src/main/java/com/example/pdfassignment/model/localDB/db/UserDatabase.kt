@@ -1,7 +1,9 @@
-package com.example.pdfassignment.model.localDB
+package com.example.pdfassignment.model.localDB.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
+import com.example.pdfassignment.model.localDB.entity.User
+import com.example.pdfassignment.model.localDB.dao.UserDao
 
 
 @Database(

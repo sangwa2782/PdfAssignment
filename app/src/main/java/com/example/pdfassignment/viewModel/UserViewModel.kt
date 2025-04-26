@@ -1,11 +1,10 @@
 package com.example.pdfassignment.viewModel
 
-import androidx.activity.result.launch
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.pdfassignment.model.localDB.User
+import com.example.pdfassignment.model.localDB.entity.User
 import com.example.pdfassignment.repository.UserRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch

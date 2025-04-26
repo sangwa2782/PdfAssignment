@@ -1,9 +1,10 @@
-package com.example.pdfassignment.model.localDB
+package com.example.pdfassignment.model.localDB.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import com.example.pdfassignment.model.localDB.entity.User
 
 
 @Dao
